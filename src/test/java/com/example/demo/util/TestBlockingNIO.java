@@ -42,9 +42,7 @@ public class TestBlockingNIO {
 
         //3.读取本地文件，并发送到服务端
         while (inChannel.read(buf) != -1){
-            buf.flip();
-            sChannel.write(buf);
-            buf.clear();
+
         }
 
         //4.关闭通道
