@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: nyx
+  datasource:
+    url: jdbc:mysql://localhost:3306/nyx?useSSL=false&serverTimezone=UTC&characterEncoding=utf-8
+    username: root
+    password: 123456
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
