@@ -11,6 +11,6 @@ public class Syudent {
 
     private BigDecimal id;
 
-
+    private Long name2;
     private Long name;
 }
