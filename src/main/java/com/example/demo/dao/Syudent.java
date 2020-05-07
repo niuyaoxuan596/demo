@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 public class Syudent {
 
     private BigDecimal id;
-
+    private Long name3;
     private Long name2;
     private Long name;
 }
