@@ -12,5 +12,5 @@ public class Syudent {
     private BigDecimal id;
 
 
-    private String name;
+    private Long name;
 }
