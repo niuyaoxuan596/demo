@@ -10,5 +10,5 @@ public class Syudent {
     private Integer id;
 
 
-    private Integer name;
+    private String name;
 }
