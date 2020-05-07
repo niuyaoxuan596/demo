@@ -3,14 +3,12 @@ package com.example.demo.dao;
 
 import lombok.Data;
 
-import java.math.BigDecimal;
-
 
 @Data
 public class Syudent {
 
-    private BigDecimal id;
+    private Integer id;
 
 
-    private Long name;
+    private String name;
 }
